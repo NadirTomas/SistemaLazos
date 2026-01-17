@@ -80,6 +80,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = "core.User"
+
 LANGUAGE_CODE = "es-ar"
 
 TIME_ZONE = "America/Argentina/Cordoba"
